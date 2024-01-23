@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndieBrew</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utlis.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div class="section-1 p-t-b">
+        <header>
+            <nav>
+                <div class="logo"><img src="Assets/Logo.svg" alt=""></div>
+                <div class="menu"><img onclick="showMe()" id="menuImg" src="Assets/Hamburger Menu.svg" alt=""></div>
+                <ul class="active">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <button class="dry hide"><a href="signup.html"> <span class="inner">Subscribe</span> - it's free </a></button>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="content-1">
+                <h1>Your weekly personal feed digest.</h1>
+                <p>With IndieBrew, get personal feeds from resources all around the web, inculding Reddit, HackerNews,
+                    IndieHackers, and much more.</p>
+                <button class="dry ex"><a href="signup.html"> <span class="inner">Subscribe</span> - it's free </a></button>
+                <img src="Assets/User Avatars.svg" alt="">
+                <p>Join <span id="num">32,642</span> IndieBrewers in curating their personal digest.</p>
+            </div>
+            <div class="content-2">
+                <img id="feed" src="Assets/Feed Mockup.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="section-2 p-t-b">
+        <div class="page-1">
+        <div class="content2-1">
+            <h1>Curate your feed from dozens of resources.</h1>
+            <p>We cover all major platforms where one could want to curate their feed from. Reddit, ProductHunt,
+                IndieHacker, and so much more.</p>
+            <a href="#">See full list of resourses &rightarrow;</a>
+
+        </div>
+        <div class="content2-2">
+            <img id="icons" src="Assets/Social Media Icons.png" alt="">
+        </div>
+        </div>
+        <div class="page-2">
+            <div id="mob" class="content2-2">
+                <img id="mobile" src="Assets/Phone Mockup.png" alt="">
+            </div>
+        <div class="content2-1">
+            <h1>Access your feed from the comfort of your phone.
+            </h1>
+            <p>With native apps for both iOS and Android, accessing your curated content has never been easier.
+            </p>
+            <a href="#">Sign up for the waitlist &rightarrow;</a>
+
+        </div>
+       
+        </div>
+    </div>
+
+
+
+
+
+
+    
+<footer class="p-t-b">
+    <div class="intro">
+        <h3 class="headings">IndieBrew</h3>
+        <p>With IndieBrew, get personal feeds from resources all around the web, inculding Reddit, HackerNews, and much more.</p>
+        <br>
+        <p>Made with ♥ in Pakistan</p>
+    </div>
+    <ul>
+        <li class="headings"><a href="#">Sitemap</a></li>
+        <li><a href="#">Homepage</a></li>
+        <li><a href="#">Pricing</a></li>
+    </ul>
+    <ul>
+        <li class="headings"><a href="#">Resources</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">FAQ</a></li>
+    </ul>
+    <ul>
+        <li class="headings"><a href="#">Company</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Customers</a></li>
+        <li><a href="#">Blog</a></li>
+    </ul>
+    <ul>
+        <li class="headings"><a href="#">Porfolios</a></li>
+        <li><a href="#">HackerNews</a></li>
+        <li><a href="#">Reddit</a></li>
+        <li><a href="#">Twitter</a></li>
+    </ul>
+</footer>
+
+
+<script>
+    let buttons = document.getElementById("menuImg");
+    let content = document.querySelector("nav ul");
+    let showMe = () =>{
+        content.classList.toggle("active");
+    }
+</script>
+</body>
+
+
+</html>

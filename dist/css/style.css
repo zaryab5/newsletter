@@ -1,0 +1,170 @@
+#design{
+    width: 100%;
+    height: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.msg{
+    justify-content: center;
+    margin: 60px 0;
+}
+.section-1{
+    background: linear-gradient(149deg, lavender, transparent);
+   
+}
+div.logo img{
+    width: 8rem;
+    
+}
+div.logo{
+    flex: 1;
+}
+nav{
+    display: flex;
+}
+ul{
+    
+    align-self: center;
+}
+ul li{
+    display: inline;
+    list-style: none;
+}
+ul li a{
+   text-decoration: none;
+   color: rgb(32, 31, 31);
+   padding: 0 1rem;
+}
+ul li a:hover{
+    color:mediumaquamarine;
+}
+button.dry{
+    width: 13rem;
+    height: 3rem;
+    font-size: 1rem;
+    border: none;
+    background: #664efced;
+    border-radius: 0.2rem;
+    color: rgb(252 201 201);
+    transition: .5s;
+    cursor: pointer;
+}
+button.dry a{
+    text-decoration: none;
+    color:rgb(252 201 201) ;
+}
+button.dry:hover{
+    background-color: #7561f7a6;
+   
+}
+button.dry .inner{
+    font-weight: 600;
+    color: white;
+}
+.section-1 .content-1{
+    padding-top: 8rem;
+    flex: 2;
+}
+.section-1 .content-2{
+    flex: 2;
+}
+.content{
+    display: flex;
+}
+.content-1 h1{
+    font-size: 3rem;
+}
+.content-1 p{
+    padding-top: 1rem;
+    color: #69655c;
+}
+.content-1 span#num{
+    color: blueviolet;
+    font-weight: 700;
+}
+.ex{
+    margin: 1rem 0;
+}
+.content-1 img{
+    display: block;
+    width: 13rem;
+}
+img#feed{
+    width: 100%;
+    margin: 3rem 0;
+}
+.section-2{
+    margin-top: 8rem ;
+}
+.page-1{
+    display: flex;
+
+}
+.content2-1{
+    flex:2;
+    align-self: center;
+}
+.content2-2{
+    flex: 2;
+}
+.section-2 p{
+    padding: 1rem 0;
+    color: #69655c;
+}
+img#icons{
+    float: right;
+    width: 70%;
+
+}
+div#mob{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+img#mobile{
+    float: left;
+    width: 100%;
+}
+div.content2-2{
+    width: 20rem;
+
+}
+.section-2 a{
+    color: blueviolet;
+    font-weight: 700;
+    text-decoration: none;
+}
+.page-2{
+    display: flex;
+}
+footer{
+    display: grid;
+    grid-template-columns:2fr repeat(4,1fr);
+    background-color: aliceblue;
+
+}
+footer ul li{
+    display: block;
+    padding: .5rem;
+}
+footer ul li a, footer p{
+    color: #69655c;
+
+}
+footer ul{
+    align-self: flex-start;
+}
+.headings{
+    padding-bottom: 1rem;
+    font-weight: 700;
+}
+.headings a{
+    color: black;
+
+}
+div.menu{
+    display: none;
+}

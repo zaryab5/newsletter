@@ -1,0 +1,37 @@
+@media screen and (max-width:1000px) {
+    .p-t-b{
+      padding: 1vh 5vw;
+    }
+    div.logo{
+        padding-right: 35vw;
+    }
+    
+}
+@media screen and (max-width:750px) {
+    div.page.p-t-b{
+        flex-direction: column;
+    }
+    div.right{
+        width: auto;
+        padding-bottom: 3rem;
+    }
+    div.left{
+        margin-top: 2rem;
+    }
+
+    
+}
+@media screen and (max-width:630px) {
+    .back span#innertxt{
+        display: none;
+    }
+    div.logo{
+        flex: 4;
+    }
+    .back{
+        margin-top: 0;
+    }
+    div.right{
+        padding-bottom: 5rem;
+    }
+}
